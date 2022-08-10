@@ -1,0 +1,27 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somerongit/node-graphql.git"
+  },
+  "author": "Someron Bakuli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somerongit/node-graphql/issues"
+  },
+  "homepage": "https://github.com/somerongit/node-graphql#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  }
+}
